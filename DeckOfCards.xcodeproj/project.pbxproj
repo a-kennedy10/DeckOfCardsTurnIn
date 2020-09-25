@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA70F1E6251A860D00A5501E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70F1E5251A860D00A5501E /* AppDelegate.swift */; };
+		FA70F1E8251A860D00A5501E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70F1E7251A860D00A5501E /* SceneDelegate.swift */; };
+		FA70F1ED251A860D00A5501E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA70F1EB251A860D00A5501E /* Main.storyboard */; };
+		FA70F1F0251A860D00A5501E /* DeckOfCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA70F1EE251A860D00A5501E /* DeckOfCards.xcdatamodeld */; };
+		FA70F1F2251A860D00A5501E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA70F1F1251A860D00A5501E /* Assets.xcassets */; };
+		FA70F1F5251A860D00A5501E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA70F1F3251A860D00A5501E /* LaunchScreen.storyboard */; };
+		FA70F201251A890800A5501E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70F200251A890800A5501E /* Card.swift */; };
+		FA70F204251A8B5000A5501E /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70F203251A8B5000A5501E /* CardController.swift */; };
+		FA70F207251A8BF700A5501E /* CardError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70F206251A8BF700A5501E /* CardError.swift */; };
+		FA70F209251A935A00A5501E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70F208251A935A00A5501E /* UIViewControllerExtension.swift */; };
+		FA70F20B251A943000A5501E /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70F20A251A943000A5501E /* CardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA70F1E2251A860D00A5501E /* DeckOfCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA70F1E5251A860D00A5501E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA70F1E7251A860D00A5501E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA70F1EC251A860D00A5501E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA70F1EF251A860D00A5501E /* DeckOfCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeckOfCards.xcdatamodel; sourceTree = "<group>"; };
+		FA70F1F1251A860D00A5501E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA70F1F4251A860D00A5501E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA70F1F6251A860D00A5501E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA70F200251A890800A5501E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FA70F203251A8B5000A5501E /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		FA70F206251A8BF700A5501E /* CardError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardError.swift; sourceTree = "<group>"; };
+		FA70F208251A935A00A5501E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		FA70F20A251A943000A5501E /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA70F1DF251A860D00A5501E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA70F1D9251A860D00A5501E = {
+			isa = PBXGroup;
+			children = (
+				FA70F1E4251A860D00A5501E /* DeckOfCards */,
+				FA70F1E3251A860D00A5501E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA70F1E3251A860D00A5501E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F1E2251A860D00A5501E /* DeckOfCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA70F1E4251A860D00A5501E /* DeckOfCards */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F205251A8BE100A5501E /* Helpers */,
+				FA70F1FE251A864000A5501E /* Controllers */,
+				FA70F1FD251A863A00A5501E /* Model */,
+				FA70F1FC251A862000A5501E /* Resources */,
+				FA70F1EB251A860D00A5501E /* Main.storyboard */,
+				FA70F1EE251A860D00A5501E /* DeckOfCards.xcdatamodeld */,
+			);
+			path = DeckOfCards;
+			sourceTree = "<group>";
+		};
+		FA70F1FC251A862000A5501E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F1E5251A860D00A5501E /* AppDelegate.swift */,
+				FA70F1E7251A860D00A5501E /* SceneDelegate.swift */,
+				FA70F1F1251A860D00A5501E /* Assets.xcassets */,
+				FA70F1F3251A860D00A5501E /* LaunchScreen.storyboard */,
+				FA70F1F6251A860D00A5501E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA70F1FD251A863A00A5501E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F200251A890800A5501E /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA70F1FE251A864000A5501E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F202251A8B4100A5501E /* ModelController */,
+				FA70F1FF251A864600A5501E /* ViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA70F1FF251A864600A5501E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F208251A935A00A5501E /* UIViewControllerExtension.swift */,
+				FA70F20A251A943000A5501E /* CardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FA70F202251A8B4100A5501E /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F203251A8B5000A5501E /* CardController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		FA70F205251A8BE100A5501E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA70F206251A8BF700A5501E /* CardError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA70F1E1251A860D00A5501E /* DeckOfCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA70F1F9251A860D00A5501E /* Build configuration list for PBXNativeTarget "DeckOfCards" */;
+			buildPhases = (
+				FA70F1DE251A860D00A5501E /* Sources */,
+				FA70F1DF251A860D00A5501E /* Frameworks */,
+				FA70F1E0251A860D00A5501E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckOfCards;
+			productName = DeckOfCards;
+			productReference = FA70F1E2251A860D00A5501E /* DeckOfCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA70F1DA251A860D00A5501E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Alex Kennedy";
+				TargetAttributes = {
+					FA70F1E1251A860D00A5501E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = FA70F1DD251A860D00A5501E /* Build configuration list for PBXProject "DeckOfCards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA70F1D9251A860D00A5501E;
+			productRefGroup = FA70F1E3251A860D00A5501E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA70F1E1251A860D00A5501E /* DeckOfCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA70F1E0251A860D00A5501E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA70F1F5251A860D00A5501E /* LaunchScreen.storyboard in Resources */,
+				FA70F1F2251A860D00A5501E /* Assets.xcassets in Resources */,
+				FA70F1ED251A860D00A5501E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA70F1DE251A860D00A5501E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA70F204251A8B5000A5501E /* CardController.swift in Sources */,
+				FA70F1F0251A860D00A5501E /* DeckOfCards.xcdatamodeld in Sources */,
+				FA70F201251A890800A5501E /* Card.swift in Sources */,
+				FA70F209251A935A00A5501E /* UIViewControllerExtension.swift in Sources */,
+				FA70F20B251A943000A5501E /* CardViewController.swift in Sources */,
+				FA70F1E6251A860D00A5501E /* AppDelegate.swift in Sources */,
+				FA70F207251A8BF700A5501E /* CardError.swift in Sources */,
+				FA70F1E8251A860D00A5501E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA70F1EB251A860D00A5501E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA70F1EC251A860D00A5501E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA70F1F3251A860D00A5501E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA70F1F4251A860D00A5501E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA70F1F7251A860D00A5501E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA70F1F8251A860D00A5501E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA70F1FA251A860D00A5501E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeckOfCards/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkennedy.DeckOfCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA70F1FB251A860D00A5501E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeckOfCards/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkennedy.DeckOfCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA70F1DD251A860D00A5501E /* Build configuration list for PBXProject "DeckOfCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA70F1F7251A860D00A5501E /* Debug */,
+				FA70F1F8251A860D00A5501E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA70F1F9251A860D00A5501E /* Build configuration list for PBXNativeTarget "DeckOfCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA70F1FA251A860D00A5501E /* Debug */,
+				FA70F1FB251A860D00A5501E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA70F1EE251A860D00A5501E /* DeckOfCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA70F1EF251A860D00A5501E /* DeckOfCards.xcdatamodel */,
+			);
+			currentVersion = FA70F1EF251A860D00A5501E /* DeckOfCards.xcdatamodel */;
+			path = DeckOfCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA70F1DA251A860D00A5501E /* Project object */;
+}
